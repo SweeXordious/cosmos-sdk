@@ -26,7 +26,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hdevalence/ed25519consensus v0.0.0-20210204194344-59a8610d2b87
 	github.com/improbable-eng/grpc-web v0.14.1
-	github.com/jhump/protoreflect v1.9.0
+	github.com/jhump/protoreflect v1.15.1
 	github.com/magiconair/properties v1.8.5
 	github.com/mattn/go-isatty v0.0.14
 	github.com/pkg/errors v0.9.1
@@ -39,7 +39,7 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.9.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
@@ -48,7 +48,7 @@ require (
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	google.golang.org/genproto v0.0.0-20210828152312-66f60bf46e71
 	google.golang.org/grpc v1.40.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.28.2-0.20230222093303-bc1253ad3743
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -58,6 +58,7 @@ require (
 	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/bufbuild/protocompile v0.4.0 // indirect
 	github.com/celestiaorg/go-leopard v0.1.0 // indirect
 	github.com/celestiaorg/merkletree v0.0.0-20210714075610-a84dc3ddbbe4 // indirect
 	github.com/celestiaorg/nmt v0.7.0 // indirect
@@ -113,13 +114,13 @@ require (
 	github.com/vivint/infectious v0.0.0-20200605153912-25a574ae18a3 // indirect
 	github.com/zondax/hid v0.9.0 // indirect
 	go.etcd.io/bbolt v1.3.5 // indirect
-	golang.org/x/net v0.0.0-20210525063256-abc453219eb5 // indirect
-	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	gopkg.in/ini.v1 v1.63.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
